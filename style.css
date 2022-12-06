@@ -1,0 +1,46 @@
+@import url("font.css");
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.title-services {
+    font-family: "TT Lakes Bold", sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.title-services::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: #41F6D7;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.title-services__margin {
+    padding-left: 20px;
+}
+
+.about__button {
+    background: url("expand.svg") no-repeat;
+    border-style: none;
+    text-align: start;
+    padding-left: 25px;
+    font-family: "TT Lakes Medium", sans-serif;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+
+
